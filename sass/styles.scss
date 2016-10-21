@@ -1,0 +1,73 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Tillana');
+
+body {
+	background-color: #FCF3CC;
+	text-align: center;
+	width: 100%;
+	font-family: 'Tillana', sans-serif;
+}
+h1 {
+	font-weight: 700;
+}
+
+#image {
+	height: 200px;
+	margin-bottom: 50px;
+	width: auto;
+}
+
+#buttonRow {
+	text-align: center;
+}
+
+a.btn {
+    padding: 14px 15px;
+    border: 1 solid #565656;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+ 
+a.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+a.btn {
+	background: #fcf3cc;
+    color: #565656;
+}
+ 
+a.btn:hover, a.btn:focus, a.btn:active, a.btn.active {
+    background: #CCEDFC;
+}
+ 
+a.btn:active, a.btn.active {
+    background: #FCDBCC;
+    box-shadow: none;
+}
+.inputRow {
+  flex-direction: column;
+  display:flex;
+  position: relative; 
+  border-bottom: 1px solid #fbedb4;
+}
+#search {
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+}
+a.searchBox {
+  position: absolute; /*in Relation to position relative*/
+  right: 20px;
+  bottom: 15px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+a i.fa {
+  color: #ccc;
+  font-size: 34px;
+}
